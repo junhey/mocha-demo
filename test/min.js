@@ -3,8 +3,8 @@ const min = require('../lib/min')
 describe('#min', () => {
   // 测试有沒有取得正确的最小值
   it('should return the minimum in array', done => {
-    var minimum = min([1, 10, 100, 1000]);
-    minimum.should.equal(1);
+    var minimum = min([1001, 20, 100, 1000,200]);
+    minimum.should.equal(20);
     done();
   })
   // 测试有沒有回传 undefined

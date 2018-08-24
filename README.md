@@ -1,4 +1,5 @@
 
+[![NPM version](https://img.shields.io/npm/v/brick.js.svg?style=flat)](https://www.npmjs.org/package/brick.js) 
 [![Build Status](https://travis-ci.org/junhey/mocha-demo.svg?branch=master)](https://travis-ci.org/junhey/mocha-demo) 
 [![Coverage Status](https://coveralls.io/repos/github/junhey/mocha-demo/badge.svg)](https://coveralls.io/github/junhey/mocha-demo)
 

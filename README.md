@@ -1,13 +1,17 @@
-# mocha-demo
+
+[![Build Status](https://travis-ci.org/junhey/mocha-demo.svg?branch=master)](https://travis-ci.org/junhey/mocha-demo)
 
 mocha 是一个 unit testing framework
 
-参考文档：[mocha](https://mochajs.org) [should](https://shouldjs.github.io) [Travis CI](https://docs.travis-ci.com)
+参考文档：
+[mocha](https://mochajs.org)  
+[should](https://shouldjs.github.io)  
+[Travis CI](https://docs.travis-ci.com)  
 
 ------
 
 新建目录结构如下
-
+```bash
 .
 ├── README.md
 ├── index.js
@@ -18,7 +22,7 @@ mocha 是一个 unit testing framework
 └── package.json
 
 1 directory, 6 files
-
+```
 其中三个小功能在lib目录下：
 ```javascript
 // 取得数组的平均值

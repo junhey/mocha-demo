@@ -75,20 +75,22 @@ describe('测试标题', function(){
 })
 ```
 
-# 测试覆盖率
+### 测试覆盖率
 
 1. 使用 Istanbul 这个工具来检测代码的测试覆盖率
 
 项目中安装 Istanbul：
+```
 npm install istanbul --save-dev
-
+```
 然后在 package.json 中的 scripts 里添加：
-
+```
 "cover": "istanbul cover node_modules/mocha/bin/_mocha"
+```
 这个命令用于生成测试覆盖率报告，它也可以在本地运行，也可以在 Travis 里运行：
-
+```
 npm run cover
-
+```
 它将会先执行测试，然后生成一个 coverage 目录，里面有测试覆盖率报告，其中的 html 文件可以直接打开查看。当然运行的结果也会在终端中显示出来：
 
 ```
